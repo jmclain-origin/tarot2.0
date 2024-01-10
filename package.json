@@ -11,9 +11,12 @@
   },
   "devDependencies": {
     "@formkit/auto-animate": "^0.8.1",
-    "@nuxtjs/tailwindcss": "^6.10.3",
+    "@iconify-json/mdi": "^1.1.64",
+    "@nuxtjs/google-fonts": "^3.1.3",
+    "@nuxtjs/tailwindcss": "^6.10.4",
     "@tailwindcss/forms": "^0.5.7",
     "nuxt": "^3.9.0",
+    "nuxt-icon-tw": "^0.1.3",
     "vue": "^3.4.5",
     "vue-router": "^4.2.5"
   },
