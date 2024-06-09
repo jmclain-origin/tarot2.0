@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Building...'
                 // Add your build steps here
-                sh 'make build'
+                sh 'npm run build'
             }
         }
 
