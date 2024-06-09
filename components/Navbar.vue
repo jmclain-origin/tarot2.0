@@ -11,9 +11,11 @@ const linkStyleTailwind = "text-2xl text-slate-900 hover:text-slate-700 hover:te
   <div class="w-[100vw] h-[50px] bg-slate-200">
     <div class="flex row justify-center items-center w-[100%] space-x-4 w-100">
       <NuxtLink v-for="link in links" :to="link.path" :class="linkStyleTailwind"
-        >{{ link.title }}<Icon :name="link.icon"/>
+        >{{ link.title }}<Icon :name="link.icon" size="1.8rem" />
       </NuxtLink>
-      <NuxtLink v-if="!isAuth" to="/login" :class="linkStyleTailwind">Login<Icon name="i-mdi:login"></Icon></NuxtLink>
+      <NuxtLink v-if="!isAuth" to="/login" :class="linkStyleTailwind">Login<Icon name="i-mdi:login" size="1.8rem"></Icon></NuxtLink>
+      <Modal slot=""><div>Content
+      </div></Modal>
     </div>
   </div>
 </template>
