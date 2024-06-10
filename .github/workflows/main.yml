@@ -39,7 +39,6 @@ jobs:
         host: ${{ secrets.EC2_HOST }}
         username: ${{ secrets.EC2_USER }}
         key: ${{ secrets.EC2_KEY }}
-        port: ${{ secrets.EC2_PORT }}
         script: |
           echo 'hello world'
           # cd /path/to/your/app
